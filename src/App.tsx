@@ -194,7 +194,7 @@ function Mission() {
 
   return (
     <p ref={missionRef} className="mission-text">
-      "The highest reward for a person's toil is not what they gets for it but what they become by it."{' '}
+      "The highest reward for a person's toil is not what they get for it but what they become by it."{' '}
       <span className="highlight">― John Ruskin</span>
     </p>
   )
