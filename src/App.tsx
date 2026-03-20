@@ -293,7 +293,7 @@ function About() {
       <div className="about-image-col">
         <div ref={imageRef} className="about-image-wrapper">
           <img
-            src="/Pic2.jpg"
+            src={import.meta.env.BASE_URL + "Pic2.jpg"}
             alt="Joel"
             loading="lazy"
           />
